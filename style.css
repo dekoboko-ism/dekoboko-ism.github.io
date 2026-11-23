@@ -46,3 +46,10 @@ p a:not(.button),li a:not(.button){text-decoration:underline;text-underline-offs
 .rv.in{opacity:1;transform:translate(0,0)}
 @media(max-width:760px){.feat{grid-template-columns:1fr;gap:18px}.feat>img{height:240px}.feat.rev>img{order:0}.profile-photo{width:92px;height:92px}}
 @media (prefers-reduced-motion: reduce){.rv{opacity:1;transform:none;transition:none}}
+
+/* round2 fixes 2026-11-23 */
+.profile-photo{width:190px;height:190px}
+.feat>img.full{height:auto;object-fit:contain;background:#f2f5f8}
+.wakuwaku{font-size:21px;font-weight:700;color:var(--navy);margin:18px 0 6px}
+.moms-img{object-position:center 62%}
+@media(max-width:760px){.profile-photo{width:150px;height:150px}.feat>img.full{height:auto}}
