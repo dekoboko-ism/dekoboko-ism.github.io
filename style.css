@@ -22,8 +22,8 @@ p a:not(.button),li a:not(.button){text-decoration:underline;text-underline-offs
 
 /* batch update 2026-11-23: hero bg / statement words / feature rows / contact / reveals */
 .hero{position:relative;isolation:isolate;overflow:hidden}
-.hero::before{content:"";position:absolute;inset:0;background:url(img_hero_bg.jpg) center/cover no-repeat;opacity:.55;z-index:-2}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(255,255,255,.85),rgba(255,255,255,.6) 55%,rgba(255,255,255,.4));z-index:-1}
+.hero::before{content:"";position:absolute;inset:0;background:url(img_hero_sky.jpg) center/cover no-repeat;opacity:.85;z-index:-2}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(255,255,255,.82),rgba(255,255,255,.55) 55%,rgba(255,255,255,.3));z-index:-1}
 .statement.words{font-size:clamp(26px,5.6vw,46px);line-height:1.7}
 .feat{display:grid;grid-template-columns:1fr 1fr;gap:6%;align-items:center;max-width:1100px;margin:0 auto 54px;padding:0 6%}
 .feat>img{width:100%;height:340px;object-fit:cover;border-radius:18px}
