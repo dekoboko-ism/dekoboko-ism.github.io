@@ -56,3 +56,12 @@ p a:not(.button),li a:not(.button){text-decoration:underline;text-underline-offs
 
 .profile-photo.mini{width:120px;height:120px}
 @media(max-width:760px){.profile-photo.mini{width:96px;height:96px}}
+
+/* philosophy fixes 2026-11-23 */
+.slogan-h .br-sp{display:none}
+@media(max-width:640px){
+.slogan-h{font-size:30px;line-height:1.5}
+.heading h2.slogan-h .nb{font-size:30px}
+.slogan-h .br-sp{display:inline}
+.statement.words{font-size:22px;line-height:1.8;padding:26px 18px}
+}
