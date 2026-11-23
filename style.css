@@ -53,3 +53,6 @@ p a:not(.button),li a:not(.button){text-decoration:underline;text-underline-offs
 .wakuwaku{font-size:21px;font-weight:700;color:var(--navy);margin:18px 0 6px}
 .moms-img{object-position:center 62%}
 @media(max-width:760px){.profile-photo{width:150px;height:150px}.feat>img.full{height:auto}}
+
+.profile-photo.mini{width:120px;height:120px}
+@media(max-width:760px){.profile-photo.mini{width:96px;height:96px}}
