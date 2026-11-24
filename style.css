@@ -65,3 +65,6 @@ p a:not(.button),li a:not(.button){text-decoration:underline;text-underline-offs
 .slogan-h .br-sp{display:inline}
 .statement.words{font-size:22px;line-height:1.8;padding:26px 18px}
 }
+
+/* print 5-pattern restructure 2026-11-24 */
+.feat>img.sup-img{object-position:center 46%}
